@@ -7,7 +7,7 @@ public class CreateGroupsTest {
 	@Test(groups="smoke")
 	public void createGropTest()
 	{
-		system.out.println("execute this");
+		System.out.println("execute this");
 		String URL = System.getProperty("url");
 		String UN=System.getProperty("username");
 		String PWD=System.getProperty("password");
